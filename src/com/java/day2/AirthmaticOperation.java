@@ -4,13 +4,13 @@ import java.util.Scanner;
 
 public class AirthmaticOperation {
 	public static void main(String[] args) {
-	
+		// Taking user input
 		Scanner sc = new Scanner(System.in);
 		System.out.println("Enter the 3 number");
 		int a = sc.nextInt();
 		int b = sc.nextInt();
 		int c = sc.nextInt();
-		
+		// calculating values
 		System.out.println("calculating a+b*c: ");
 		int result1 = a+b*c;
 		System.out.println("result: "+result1);
