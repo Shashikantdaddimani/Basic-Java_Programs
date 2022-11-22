@@ -5,11 +5,12 @@ import java.util.Scanner;
 public class VowelsOrConsonants {
 
 	public static void main(String[] args) {
+		//Taking user input 
 		System.out.println("Enter The Alpabates");
 	Scanner Sc = new Scanner(System.in);
-	char N=Sc.next().charAt(0);
+	char Char=Sc.next().charAt(0);
 	
-	switch(N) {
+	switch(Char) {
 	case 'A' : 
 		System.out.println("Is Vowel");
 		break;
