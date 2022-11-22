@@ -5,13 +5,14 @@ import java.util.Scanner;
 public class SumOfNaturalNumbers2 {
 
 	public static void main(String[] args) {
+		//Taking user input
 		Scanner Sc = new Scanner(System.in);
 		System.out.println("Enter a number: ");
-		int n= Sc.nextInt(); 
+		int number= Sc.nextInt(); 
 		int sum = 0;
 				
-		System.out.print("First " + n + " Numbers = ");
-		for (int i=1;i<=n;i++) {
+		System.out.print("First " + number + " Numbers = ");
+		for (int i=1;i<=number;i++) {
 			sum=sum+i;
 			
 			System.out.print(i + " + ");
