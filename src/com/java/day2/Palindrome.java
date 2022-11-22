@@ -4,6 +4,7 @@ import java.util.Scanner;
 
 public class Palindrome {
 	public static void main(String[] args) {
+		//Taking user input
 		Scanner s = new Scanner(System.in);
 		System.out.println("Enter a Number to check Palindrome");
 		int n = s.nextInt();
