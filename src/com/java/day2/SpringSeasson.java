@@ -4,11 +4,12 @@ import java.util.Scanner;
 
 public class SpringSeasson {
 	public static void main(String[] args) {
-		Scanner s = new Scanner(System.in);
+		//Taking user input
+		Scanner Sc = new Scanner(System.in);
 		System.out.println("Enter Month: ");
-		int month = s.nextInt();
+		int month = Sc.nextInt();
 		System.out.println("Enter Date: ");
-		int date = s.nextInt();
+		int date = Sc.nextInt();
 		if(date<=20)
 		{
 			for(int i=1; i<=date; i++)
