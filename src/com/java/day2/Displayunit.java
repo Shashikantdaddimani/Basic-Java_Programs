@@ -5,6 +5,7 @@ import java.util.Scanner;
 public class Displayunit {
 
 	public static void main(String[] args) {
+		//Taking user input
 		Scanner Sc = new Scanner(System.in);
 		System.out.println("Emter the Number(1,10,100.....)");
 		int n = Sc.nextInt();
