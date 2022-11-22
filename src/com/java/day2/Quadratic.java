@@ -5,6 +5,7 @@ import java.util.Scanner;
 public class Quadratic {
 
 	public static void main(String[] args) {
+		//	Taking user input
 		Scanner Sc = new Scanner(System.in);
 		System.out.println("Enter the value of a");
 		double a = Sc.nextDouble();
