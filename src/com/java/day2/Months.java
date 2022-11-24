@@ -1,13 +1,23 @@
+/**
+ * Write a Program to print the month name for the given number
+ */
 package com.java.day2;
 
+//imports the scanner class of the java.utill package
 import java.util.Scanner;
 
-public class Months {
-
-	public static void main(String[] args) {
-		Scanner s = new Scanner(System.in);
+//class definition
+public class Months 
+{
+	//main method
+	public static void main(String[] args) 
+	{
+		//Taking user input
+		Scanner input = new Scanner(System.in);
 		System.out.println("Enter a number between 1 to 12");
-		int month = s.nextInt();
+		int month =input.nextInt();
+		
+		//logic to finding the months using switch case
 		switch(month)
 		{
 			case 1: System.out.println("January");
