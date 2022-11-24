@@ -1,15 +1,23 @@
+/**
+ *  Read a single Digit Number and write in word
+ */
 package com.java.day2;
 
+//imports the scanner class of the java.utill package
 import java.util.Scanner;
 
-public class Displayunit {
-
-	public static void main(String[] args) {
+//class definition
+public class Displayunit 
+{
+	//main method
+	public static void main(String[] args) 
+	{
 		//Taking user input
 		Scanner Sc = new Scanner(System.in);
 		System.out.println("Emter the Number(1,10,100.....)");
 		int n = Sc.nextInt();
 		
+		//logic to Read a single Digit Number and write in word
 		if (n==1)
 			System.out.println("One");
 		else if(n==10)
