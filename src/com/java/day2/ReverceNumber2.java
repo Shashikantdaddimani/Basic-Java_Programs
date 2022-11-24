@@ -1,16 +1,25 @@
+/**
+ * Write a Program to reverse the integer number eg. Input n=231 reverse is 132
+ */
 package com.java.day2;
 
+//imports the scanner class of the java.utill package
 import java.util.Scanner;
 
-public class ReverceNumber2 {
-
-	public static void main(String[] args) {
-		Scanner sc = new Scanner(System.in);
+//class definition
+public class ReverceNumber2 
+{
+	//main method
+	public static void main(String[] args) 
+	{
+		//Taking user input
+		Scanner input = new Scanner(System.in);
 		System.out.println("Enter the number: ");
-		int number = sc.nextInt(); 
+		int number = input.nextInt(); 
 		int remainder;
 		int reverse = 0;  
-		    
+		
+		//logic to finding reverse number
 		for(int i = number; i >0;)
 		{  
 		remainder = i % 10;  
