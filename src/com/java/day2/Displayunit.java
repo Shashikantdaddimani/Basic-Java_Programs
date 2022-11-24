@@ -13,9 +13,9 @@ public class Displayunit
 	public static void main(String[] args) 
 	{
 		//Taking user input
-		Scanner Sc = new Scanner(System.in);
+		Scanner input = new Scanner(System.in);
 		System.out.println("Emter the Number(1,10,100.....)");
-		int n = Sc.nextInt();
+		int n = input.nextInt();
 		
 		//logic to Read a single Digit Number and write in word
 		if (n==1)
