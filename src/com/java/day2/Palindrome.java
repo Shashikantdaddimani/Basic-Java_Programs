@@ -1,26 +1,38 @@
+/**
+ * Write a Program to find Palindrome Number
+ */
 package com.java.day2;
 
+//imports the scanner class of the java.utill package
 import java.util.Scanner;
 
-public class Palindrome {
-	public static void main(String[] args) {
+//class definition
+public class Palindrome 
+{
+	//main method
+	public static void main(String[] args) 
+	{
 		//Taking user input
-		Scanner s = new Scanner(System.in);
+		Scanner input = new Scanner(System.in);
 		System.out.println("Enter a Number to check Palindrome");
-		int n = s.nextInt();
-		int rev = 0; 
-		int rem ;
-		int temp = n;
-		System.out.println("Actual Number: "+ n+"");
-		for(int i=n ; i > 0; )
+		int number = input.nextInt();
+		int reverse = 0; 
+		int remainder ;
+		int temp = number;
+		System.out.println("Actual Number: "+ number+"");
+		
+		//logic to find the Palindrome.
+		for(int i=number ; i > 0; )
 		{
-			rem = i % 10 ;
-			rev = rev * 10 + rem;
+			remainder = i % 10 ;
+			reverse = reverse * 10 + remainder;
 			i = i / 10;
 			
 		}	
-		System.out.println("Reversed Number is: "+ rev+"\n");
-		if(temp == rev)
+		System.out.println("Reversed Number is: "+ reverse+"\number");
+		
+		//Logic to finding the true or false
+		if(temp == reverse)
 		{
 			System.out.println(" Is a Palindrome");
 		}
