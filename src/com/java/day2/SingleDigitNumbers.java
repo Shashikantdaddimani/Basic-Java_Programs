@@ -1,33 +1,42 @@
+/**
+ * Read a single Digit Number and write in word
+ */
 package com.java.day2;
 
+//imports the scanner class of the java.utill package
 import java.util.Scanner;
 
-public class SingleDigitNumbers {
+//class definition
+public class SingleDigitNumbers 
+{
 
-	public static void main(String[] args) {
-		Scanner Sc = new Scanner(System.in);
+	//main method
+	public static void main(String[] args) 
+	{
+		//Taking user input
+		Scanner input = new Scanner(System.in);
 		System.out.println("Enter The Single Digit Number");
-		int n = Sc.nextInt();
+		int number = input.nextInt();
 		
-		if (n==0)
+		if (number==0)
 			System.out.println("Zero");
-		else if (n==1)
+		else if (number==1)
 			System.out.println("One");
-		else if (n==2)
+		else if (number==2)
 			System.out.println("Two");
-		else if (n==3)
+		else if (number==3)
 			System.out.println("Three");
-		else if (n==4)
+		else if (number==4)
 			System.out.println("Four");
-		else if (n==5)
+		else if (number==5)
 			System.out.println("Five");
-		else if (n==6)
+		else if (number==6)
 			System.out.println("Six");
-		else if (n==7)
+		else if (number==7)
 			System.out.println("Seven");
-		else if (n==8)
+		else if (number==8)
 			System.out.println("Eight");
-		else if (n==9)
+		else if (number==9)
 			System.out.println("Nine");
 		else
 			System.out.println("This is Not a Single Digit Number");
