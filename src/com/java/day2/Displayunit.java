@@ -1,5 +1,5 @@
 /**
- *  Read a single Digit Number and write in word
+ *  Read a Number 1,10,100,1000 and display unit, ten hundred
  */
 package com.java.day2;
 
@@ -17,7 +17,7 @@ public class Displayunit
 		System.out.println("Emter the Number(1,10,100.....)");
 		int n = input.nextInt();
 		
-		//logic to Read a single Digit Number and write in word
+		//logic to  Read a Number 1,10,100,1000 and display unit, ten hundred
 		if (n==1)
 			System.out.println("One");
 		else if(n==10)
