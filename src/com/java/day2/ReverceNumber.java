@@ -1,17 +1,23 @@
 package com.java.day2;
 
+//imports the scanner class of the java.utill package
 import java.util.Scanner;
 
-public class ReverceNumber {
+//class definition
+public class ReverceNumber 
+{
 
-	public static void main(String[] args) {
+	//main method
+	public static void main(String[] args) 
+	{
 		//Taking user input
-		Scanner Sc = new Scanner(System.in);
+		Scanner input = new Scanner(System.in);
 		System.out.println("Enter the Number");
-		int number = Sc.nextInt();
+		int number = input.nextInt();
 		int remainder;
 		int reverse=0;
 		
+		//logic to finding reverse number
 		while(number!=0)
 		{
 			remainder= number%10;
