@@ -15,16 +15,16 @@ public class Displayunit
 		//Taking user input
 		Scanner input = new Scanner(System.in);
 		System.out.println("Emter the Number(1,10,100.....)");
-		int n = input.nextInt();
+		int number = input.nextInt();
 		
 		//logic to  Read a Number 1,10,100,1000 and display unit, ten hundred
-		if (n==1)
+		if (number==1)
 			System.out.println("One");
-		else if(n==10)
+		else if(number==10)
 			System.out.println("Ten");
-		else if(n==100)
+		else if(number==100)
 			System.out.println("Hundred");
-		else if(n==1000)
+		else if(number==1000)
 			System.out.println("Thousand");
 		else
 			System.out.println("Try again");
